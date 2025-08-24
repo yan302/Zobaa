@@ -19,6 +19,17 @@
     right: calc(50% - 732px);
 }
 
+.badge-highlight {
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: bold;
+    font-size: 14px;
+    color: $primary;
+    background: $brown-10;
+}
+
+
+
 @media(min-width:992px) {
 
     .py-lg-120 {
