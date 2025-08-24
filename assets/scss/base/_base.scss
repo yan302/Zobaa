@@ -1,0 +1,25 @@
+body {
+    letter-spacing: 0.02em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    display: inline-block;
+    color: inherit;
+}
+
+.btn-primary {
+    &:hover {
+        background: $black;
+    }
+}
+
+.btn-outline-primary {
+    &:hover {
+        background: $primary;
+    }
+}

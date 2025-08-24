@@ -1,0 +1,16 @@
+@import 'bootstrap/scss/functions';
+
+@import '/assets/scss/helper/variables';
+@import '/assets/scss/helper/variables-dark';
+
+@import '/node_modules/bootstrap/scss/bootstrap.scss';
+@import '/assets/scss/helper/utilities';
+@import "bootstrap/scss/utilities/api";
+
+@import './base/base.scss';
+@import './layout/nav.scss';
+@import './layout/footer.scss';
+
+@import './pages/index.scss';
+@import './pages/cart.scss';
+@import './pages/osaka.scss';
